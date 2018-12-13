@@ -7,7 +7,6 @@
 
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0" name="viewport" user-scalable="no">
 
-  <link rel="stylesheet" href="assets/css/simple-grid.css" rel="preload" as="style">
   <link rel="stylesheet" href="assets/css/styles.css" rel="preload" as="style">
 </head>
 
@@ -28,11 +27,11 @@
 
   <section id='intro'>
     <div class='container'>
-      <div class='intro__background'>
-        <img src="assets/images/intro_background.png" srcset="assets/images/intro_background.png 1x, assets/images/intro_background.png@2x.png 2x, assets/images/intro_background.png@3x.png 3x">
+      <div class='section__background'>
+        <img src="assets/images/intro_background.png" srcset="assets/images/intro_background.png 1x, assets/images/intro_background@2x.png 2x, assets/images/intro_background@3x.png 3x">
       </div>
       <div class='wrapper-800'>
-        <h1 class='title--bold'>Hey, we are <span class='bolder'>Basenji Apps</span>.</h1>
+        <h1 class='title--bold'>Hey, we are <span class='bolder'>Basenji&nbsp;Apps</span>.</h1>
 
         <p class='text--grey'>A team enthusiasts from Minsk, Belarus, who focused on development of mobile apps for education and health improvement.</p>
         <p class='text--grey'>Our ultimate goal is to create products that contribute to overall quality of life of our users.</p>
@@ -44,17 +43,19 @@
 
   <section id='idioms'>
     <div class='section__app-icon'>
-      <img src="assets/images/idioms_icon.png" srcset="assets/images/idioms_icon.png 1x, assets/images/idioms_icon.png@2x.png 2x, assets/images/idioms_icon.png@3x.png 3x">
+      <img src="assets/images/idioms_icon.png" srcset="assets/images/idioms_icon.png 1x, assets/images/idioms_icon@2x.png 2x, assets/images/idioms_icon@3x.png 3x">
     </div>
     <div class='wrapper-wide'>
       <div class='section__grid'>
-        <img src="assets/images/phone_frame.png" srcset="assets/images/phone_frame.png 1x, assets/images/phone_frame.png@2x.png 2x, assets/images/phone_frame.png@3x.png 3x">
-        <div>
+        <div class='s-col-1'>
+          <img class='phone-frame' src="assets/images/phone_frame.png" srcset="assets/images/phone_frame.png 1x, assets/images/phone_frame@2x.png 2x, assets/images/phone_frame@3x.png 3x">
+        </div>
+        <div class='s-col-2'>
           <p class='text--bold'>An app to learn new English idioms every day.</p>
           <p class='text--bold'>We use the method of <span class='text--pink'>spaced repetition</span> and <span class='text--pink'>gamification techniques</span> to help users remember the material with ease.</p>
           <div class='mt8'>
-            <a href='#' class='button background-idioms-pink'>Learn More →</a>
-            <a href='#' class='button background-black ml25'>Download on the App Store</a>
+            <a href='#' class='button greedy-sm background-idioms-pink'>Learn More →</a>
+            <a href='#' class='button greedy-sm background-black ml25'>Download on the App Store</a>
           </div>
         </div>
       </div>
@@ -64,27 +65,27 @@
 
   <footer>
     <div class='container container--narrow'>
-      <div class='row'>
-        <div class='col-5'>
+      <div class='footer__grid'>
+        <div class='f-col-1'>
           <a href='/' class="footer__logo">
             <img src="assets/images/logo_white.png" srcset="assets/images/logo_white.png 1x, assets/images/logo_white@2x.png 2x, assets/images/logo_white@3x.png 3x">
           </a>
           <div class='footer__item footer__subtitle'>Basenji Apps—a team of experts in iOS development delivering high-fidelity products.</div>
         </div>
 
-        <div class='col-2'>
+        <div class='f-col-2'>
           <div class='footer__title'>Contacts</div>
           <a href='#' class='footer__item'>c@basenjiapps.com</a>
           <a href='#' class='footer__item'>+375 (29) 123-45-67</a>
         </div>
 
-        <div class='col-2'>
+        <div class='f-col-3'>
           <div class='footer__title'>Policies</div>
           <a href='#' class='footer__item'>Privacy Policy</a>
           <a href='#' class='footer__item'>Terms of Use</a>
         </div>
 
-        <div class='col-2'>
+        <div class='f-col-4'>
           <div class='footer__title'>About</div>
           <a href='#' class='footer__item'>App Store</a>
         </div>
