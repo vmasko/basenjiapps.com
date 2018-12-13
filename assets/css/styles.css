@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  color: #151515;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+}
+
+footer {
+  background: #2B2A3A;
+  height: 200px;
+  width: 100%;
+}
+
+#idioms {
+  background: #F7F7FB;
+}
+
+.wrapper-wide {
+  padding: 145px 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.section__grid {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  column-gap: 60px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  padding: 20px 50px;
+  margin: 0 auto;
+}
+
+.container--narrow {
+  max-width: 1240px;
+  padding: 40px 20px;
+}
+
+.wrapper-800 {
+  width: 100%;
+  max-width: 800px;
+}
+
+.navbar__logo {
+  display: inline-block;
+  height: 30px;
+  vertical-align: sub;
+}
+
+.navbar__logo img {
+  vertical-align: bottom;
+}
+
+.navbar__item {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  font-family: SF Pro Text;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+.navbar__divider {
+  display: inline-block;
+  margin: 0 10px 0 20px;
+  width: 2px;
+  height: 24px;
+  background: rgba(0, 0, 0, 0.18);
+  vertical-align: middle;
+}
+
+.title--bold {
+  font-family: SF Pro Display;
+  font-size: 72px;
+  font-weight: normal;
+  color: #2B293D;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+.text--grey {
+  font-family: SF Pro Display;
+  line-height: 48px;
+  font-size: 32px;
+  color: #7F7F7F;
+  margin: 30px 0px;
+}
+
+.text--bold {
+  margin-top: 0;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 64px;
+  font-size: 52px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.bolder {
+  font-weight: 600;
+}
+
+.text--pink {
+  color: #E83E8C;
+}
+
+.button {
+  display: inline-block;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px 25px;
+  background: #000;
+  border: none;
+}
+
+.button:visited {
+  color: #FFF;
+}
+
+.background-pink {
+  background: #EF5C71;
+}
+
+.background-idioms-pink {
+  background: #E83E8C;
+}
+
+.background-black {
+  background: #2B293D;
+}
+
+.intro__background {
+  position: absolute;
+  top: 110px;
+  right: 0;
+  padding: inherit;
+  z-index: -1;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.footer__title {
+  font-family: SF Pro Text;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.footer__subtitle {
+  width: 330px;
+  line-height: 20px;
+}
+
+.footer__item {
+  display: block;
+  font-family: SF Pro Text;
+  font-size: 14px;
+  color: #748088 !important;
+  margin-top: 15px;
+}
+
+.section__app-icon {
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: -75px;
+}
