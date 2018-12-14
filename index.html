@@ -8,6 +8,12 @@
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0" name="viewport" user-scalable="no">
 
   <link rel="stylesheet" href="assets/css/styles.css" rel="preload" as="style">
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/> -->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="assets/js/index.js"></script>
 </head>
 
 <body>
@@ -47,8 +53,17 @@
     </div>
     <div class='container'>
       <div class='section__grid'>
-        <div class='s-col-1'>
-          <img class='phone-frame' src="assets/images/self/phone_frame.png" srcset="assets/images/self/phone_frame.png 1x, assets/images/self/phone_frame@2x.png 2x, assets/images/self/phone_frame@3x.png 3x">
+        <div class='s-col-1 phone-slider'>
+          <img class='phone-slider__frame' draggable="false" src="assets/images/self/phone_frame.png" srcset="assets/images/self/phone_frame.png 1x, assets/images/self/phone_frame@2x.png 2x, assets/images/self/phone_frame@3x.png 3x">
+          <div class='phone-slider__screenshots js-phone-slider'>
+            <img src="assets/images/self/screenshot_1.png" srcset="assets/images/self/screenshot_1.png 1x, assets/images/self/screenshot_1@2x.png 2x, assets/images/self/screenshot_1@3x.png 3x">
+            <img src="assets/images/self/screenshot_2.png" srcset="assets/images/self/screenshot_2.png 1x, assets/images/self/screenshot_2@2x.png 2x, assets/images/self/screenshot_2@3x.png 3x">
+            <img src="assets/images/self/screenshot_3.png" srcset="assets/images/self/screenshot_3.png 1x, assets/images/self/screenshot_3@2x.png 2x, assets/images/self/screenshot_3@3x.png 3x">
+            <img src="assets/images/self/screenshot_4.png" srcset="assets/images/self/screenshot_4.png 1x, assets/images/self/screenshot_4@2x.png 2x, assets/images/self/screenshot_4@3x.png 3x">
+            <img src="assets/images/self/screenshot_5.png" srcset="assets/images/self/screenshot_5.png 1x, assets/images/self/screenshot_5@2x.png 2x, assets/images/self/screenshot_5@3x.png 3x">
+            <img src="assets/images/self/screenshot_6.png" srcset="assets/images/self/screenshot_6.png 1x, assets/images/self/screenshot_6@2x.png 2x, assets/images/self/screenshot_6@3x.png 3x">
+          </div>
+          <div class='text--subtitle'>← swipe left and right →</div>
         </div>
         <div class='s-col-2'>
           <p class='text--bold'>An app to learn new English idioms every day.</p>
