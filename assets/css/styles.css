@@ -24,7 +24,6 @@ section {
 
 footer {
   background: #2B2A3A;
-  height: 200px;
   width: 100%;
 }
 
@@ -81,17 +80,13 @@ a:visited {
 
 .container {
   width: 100%;
-  padding: 56px 50px 20px 50px;
+  padding: 20px 50px;
   margin: 0 auto;
 }
 
 .container--narrow {
   max-width: 1240px;
   padding: 40px 20px;
-}
-
-.container--wide {
-  padding: 10px 25px;
 }
 
 header {
@@ -103,9 +98,16 @@ header {
   z-index: 1;
 }
 
-.wrapper-800, .wrapper-text {
+.wrapper-1000 {
   width: 100%;
-  max-width: 850px;
+  max-width: 1000px;
+}
+
+.section__flex {
+  display: flex;
+  flex-direction: row;
+  /* flex-flow:row wrap; */
+  justify-content: space-between;
 }
 
 #intro {
@@ -144,18 +146,17 @@ header {
 }
 
 .title--bold {
-
   font-size: 72px;
   font-weight: normal;
   color: #2B293D;
 }
 
 h1 {
+  margin-top: 115px;
   margin-bottom: 0px;
 }
 
 .text--grey {
-
   line-height: 48px;
   font-size: 32px;
   color: #7F7F7F;
@@ -217,11 +218,13 @@ h1 {
 }
 
 .section__background {
-  position: absolute;
-  top: 110px;
-  right: 0;
-  padding: inherit;
+  min-width: 821px;
+  margin-top: 110px;
   z-index: -1;
+}
+
+.section__background img {
+  width: 100%;
 }
 
 .footer__logo {
@@ -270,37 +273,23 @@ h1 {
 }
 
 @media (max-width: 1460px) {
-  .wrapper-text {
-    max-width: 700px;
-  }
-
   .section__background {
-    top: 150px;
-  }
-
-  .section__background img {
-    width: 550px;
+    min-width: 621px;
   }
 }
 
 @media (max-width: 1280px) {
-  .section__background {
-    top: auto;
-    bottom: 100px;
-  }
-
   .s-col-2 {
     grid-column: col-start 6 / span 8;
     grid-row: 1;
   }
+
+  .container {
+    padding: 20px 20px;
+  }
 }
 
 @media (max-width: 1140px) {
-  .section__background {
-    top: auto;
-    bottom: 20px;
-  }
-
   .ml25 {
     margin-top: 10px;
     margin-left: 0;
@@ -309,6 +298,20 @@ h1 {
   .s-col-2 {
     grid-column: col-start 7 / span 8;
     grid-row: 1;
+  }
+
+  .section__flex {
+    flex-flow: row wrap;
+    /* text-align: center; */
+    justify-content: center;
+  }
+
+  .section__background {
+    margin-top: 0;
+  }
+
+  #intro {
+    padding-bottom: 50px;
   }
 }
 
@@ -330,14 +333,15 @@ h1 {
     grid-row: 1;
   }
 
-  .section__background img {
-    width: 450px;
-  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .container {
     padding: 96px 30px 20px 30px;
+  }
+
+  header .container {
+    padding: 10px 25px;
   }
 
   #idioms .container {
@@ -380,11 +384,6 @@ h1 {
 
   .section__background {
     padding-top: 15px;
-    position: initial;
-  }
-
-  .section__background img {
-    width: 100%;
   }
 
   .button {
@@ -437,10 +436,6 @@ h1 {
   .phone-frame {
     max-width: 350px;
     margin: 0 auto;
-  }
-
-  footer {
-    height: 280px;
   }
 
   .footer__subtitle {
