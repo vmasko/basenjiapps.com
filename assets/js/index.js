@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  AOS.init({
+    duration: 800,
+    mirror: true
+  });
+
   $(".js-phone-slider").slick({
     infinite: true,
     dots: false,

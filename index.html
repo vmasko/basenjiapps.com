@@ -7,12 +7,19 @@
 
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0" name="viewport" user-scalable="no">
 
+  <!-- vendor styles -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+  <!-- local styles -->
   <link rel="stylesheet" href="assets/css/styles.css" rel="preload" as="style">
-  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/> -->
+  <link rel="stylesheet" href="assets/css/styles-responsive.css" rel="preload" as="style">
 
+  <!-- vendor scripts -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- local scripts -->
   <script type="text/javascript" src="assets/js/index.js"></script>
 </head>
 
@@ -33,7 +40,7 @@
 
   <section id='intro'>
     <div class='container'>
-      <div class='section__flex'>
+      <div class='section__flex' data-aos="fade-right">
         <div>
           <h1 class='title--bold'>Hey, we are <span class='bolder'>Basenji&nbsp;Apps</span>.</h1>
           <p class='text--grey'>A team of experts from <span class='bolder'>Minsk, Belarus,</span> who focused on development of mobile apps for education and health improvement.</p>
@@ -48,10 +55,10 @@
   </section>
 
   <section id='idioms'>
-    <div class='section__app-icon'>
+    <div class='section__app-icon' data-aos="fade-left" data-aos-offset="100">
       <img src="assets/images/self/idioms_icon.png" srcset="assets/images/self/idioms_icon.png 1x, assets/images/self/idioms_icon@2x.png 2x, assets/images/self/idioms_icon@3x.png 3x">
     </div>
-    <div class='container'>
+    <div class='container' data-aos="fade-right">
       <div class='section__grid'>
         <div class='s-col-1 phone-slider'>
           <img class='phone-slider__frame' draggable="false" src="assets/images/self/phone_frame.png" srcset="assets/images/self/phone_frame.png 1x, assets/images/self/phone_frame@2x.png 2x, assets/images/self/phone_frame@3x.png 3x">
