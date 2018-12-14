@@ -1,0 +1,21 @@
+{
+  "short_name": "Basenji Apps",
+  "name": "Basenji Apps",
+  "icons": [
+    {
+      "src": "favicons/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicons/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#151515",
+  "display": "browser",
+  "scope": "/",
+  "theme_color": "#151515"
+}
