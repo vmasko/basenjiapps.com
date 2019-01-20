@@ -32,7 +32,6 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#151515">
 
   <!-- vendor styles -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
   <!-- local styles -->
   <link rel="stylesheet" href="assets/css/styles.css" rel="preload" as="style">
@@ -41,7 +40,6 @@
   <!-- vendor scripts -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <!-- local scripts -->
   <script type="text/javascript" src="assets/js/index.js"></script>
@@ -56,35 +54,31 @@
         </a>
         <div class="navbar__divider"></div>
         <a href='#intro' class="navbar__item">About</a>
-        <a href='#idioms' class="navbar__item">Apps</a>
-        <a href='#footer' class="navbar__item">Contact</a>
+        <a href='#idioms' class="navbar__item">Our apps</a>
+        <a href='#contact' class="navbar__item">Contact</a>
       </div>
     </div>
   </header>
 
   <section id='intro'>
     <div class='container'>
-      <div class='section__flex' data-aos="fade-right">
-        <div>
-          <h1 class='title--bold'>Hey, we are <span class='bolder'>Basenji&nbsp;Apps</span>.</h1>
-          <p class='text--grey'>A team of experts from <span class='bolder'>Minsk, Belarus,</span> who focused on development of mobile apps for education and health improvement.</p>
-          <p class='text--grey'>We strive to create products that contribute to overall quality of life of our users.</p>
-          <a href='#idioms' class='button background-pink mt30'>Check out our apps →</a>
-        </div>
-        <div class='section__background'>
-          <img src="assets/images/self/intro_background.png" srcset="assets/images/self/intro_background.png 1x, assets/images/self/intro_background@2x.png 2x, assets/images/self/intro_background@3x.png 3x">
-        </div>
+      <div style='text-align: center; max-width: 900px; margin: 0 auto;'>
+        <h1 class='title--bold'>Hey, we are <span class='bolder'>Basenji&nbsp;Apps</span>.</h1>
+        <p class='text--grey'>A team of experts from <span class='bolder'>Minsk, Belarus,</span> who focused on development of mobile apps for education and health improvement.</p>
+        <p class='text--grey'>We strive to create products that contribute to overall quality of life of our users.</p>
+        <a href='#idioms' class='button background-pink mt30'>Check out our apps →</a>
+      </div>
       </div>
     </div>
   </section>
 
   <section id='idioms'>
-    <div class='section__app-icon' data-aos="fade-left" data-aos-offset="100">
+    <div class='section__app-icon'>
       <img src="assets/images/self/idioms_icon.png" srcset="assets/images/self/idioms_icon.png 1x, assets/images/self/idioms_icon@2x.png 2x, assets/images/self/idioms_icon@3x.png 3x">
     </div>
     <div class='container'>
       <div class='section__grid'>
-        <div class='s-col-1 phone-slider' data-aos="fade-right">
+        <div class='s-col-1 phone-slider'>
           <img class='phone-slider__frame' draggable="false" src="assets/images/self/phone_frame.png" srcset="assets/images/self/phone_frame.png 1x, assets/images/self/phone_frame@2x.png 2x, assets/images/self/phone_frame@3x.png 3x">
           <div class='phone-slider__screenshots js-phone-slider'>
             <img src="assets/images/self/screenshot_1.png" srcset="assets/images/self/screenshot_1.png 1x, assets/images/self/screenshot_1@2x.png 2x, assets/images/self/screenshot_1@3x.png 3x">
@@ -96,7 +90,7 @@
           </div>
           <div class='text--subtitle'>← swipe left and right →</div>
         </div>
-        <div class='s-col-2' data-aos="fade-left">
+        <div class='s-col-2'>
           <p class='text--bold'>An app to learn new English idioms every day.</p>
           <p class='text--bold'>We use the method of <span class='text--pink'>spaced repetition</span> and <span class='text--pink'>gamification techniques</span> to help users remember the material with ease.</p>
           <div class='mt8'>
@@ -106,7 +100,11 @@
         </div>
       </div>
     </div>
-
+  </section>
+  <section id="contact">
+    <div class='container'>
+      <h2 class='title--bold'>Drop us a line: <a href="mailto:team@basenjiapps.com">team@basenjiapps.com.</a></h2>
+    </div>
   </section>
 
   <footer id='footer'>

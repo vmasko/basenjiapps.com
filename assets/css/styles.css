@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Sarabun:400,500,700');
 
 /* basic */
 html, body {
@@ -11,7 +11,7 @@ body {
   font-weight: normal;
   line-height: normal;
   color: #151515;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Sarabun', sans-serif;
 }
 
 * {
@@ -21,6 +21,8 @@ body {
 
 a {
   text-decoration: none;
+  color: #EF5C71;
+  transition: all 0.1s ease-out;
 }
 
 h1 {
@@ -47,7 +49,7 @@ header {
 }
 
 footer {
-  background: #2B2A3A;
+  background: #0b1633;
   width: 100%;
 }
 
@@ -69,14 +71,14 @@ footer {
 }
 
 header .container {
-  padding: 5px 20px;
+  padding: 8px 20px;
 }
 
 
 /* navbar */
 .navbar__logo {
   display: inline-block;
-  height: 30px;
+  height: 36px;
   vertical-align: middle;
 }
 
@@ -89,17 +91,23 @@ header .container {
   height: 36px;
   line-height: 36px;
   color: #151515;
-  font-size: 14px;
-  letter-spacing: -0.02em;
-
+  font-size: 15px;
+  transition: all 0.2s ease-out;
   font-weight: 500;
   padding: 0 10px;
+  border-radius: 5px;
+}
+
+.navbar__item:hover {
+  color: white;
+  background: #000;
+  animation: all 0.3 ease-out;
 }
 
 .navbar__divider {
   display: inline-block;
   margin: 0 10px 0 20px;
-  width: 1px;
+  width: 2px;
   height: 24px;
   background: rgba(0, 0, 0, 0.18);
   vertical-align: middle;
@@ -108,7 +116,7 @@ header .container {
 
 /* sections */
 section#intro {
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 section#idioms {
@@ -231,10 +239,13 @@ section#idioms {
 
 .footer__item {
   display: block;
-
   font-size: 14px;
   color: #748088 !important;
   margin-top: 15px;
+}
+
+a.footer__item:hover {
+  color: #fff !important;
 }
 
 
@@ -245,10 +256,14 @@ section#idioms {
   color: #2B293D;
 }
 
+.title--bold a:hover {
+  text-decoration: underline;
+}
+
 .text--grey {
   line-height: 48px;
   font-size: 32px;
-  color: #7F7F7F;
+  color: #000;
   margin: 30px 0px;
 }
 
@@ -301,17 +316,42 @@ section#idioms {
 }
 
 .background-pink {
+  border: 2px solid #fff;
   background: #EF5C71;
 }
 
+.background-pink:hover {
+  border: 2px solid #EF5C71;
+  background: #fff;
+  color: #EF5C71;
+}
+
 .background-idioms-pink {
+  border: 2px solid #fff;
   background: #E83E8C;
 }
 
+.background-idioms-pink:hover {
+  border: 2px solid #E83E8C;
+  background: #fff;
+  color: #E83E8C;
+}
+
 .background-black {
+  border: 2px solid #fff;
   background: #2B293D;
+}
+
+.background-black:hover {
+  border: 2px solid #2B293D;
+  background: #fff;
+  color: #2B293D;
 }
 
 .text--pink {
   color: #E83E8C;
+}
+
+.pull-right {
+  float: right;
 }
