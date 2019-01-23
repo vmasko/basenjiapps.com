@@ -61,6 +61,10 @@
 
 @media (max-width: 810px) {
   /* containers */
+  header .container {
+    padding: 8px 20px;
+  }
+
   .container {
     padding: 96px 30px 20px 30px;
   }
@@ -151,7 +155,7 @@
   /* buttons */
   .button {
     font-size: 15px;
-    border-radius: 3.75px;
+    border-radius: 5px;
     padding: 15px 18.25px;
   }
 
@@ -164,7 +168,6 @@
     width: 100%;
     text-align: center;
   }
-
 
   /* footer */
   .footer__logo {
@@ -202,5 +205,9 @@
   .phone-slider__frame {
     max-width: 350px;
     margin: 0 auto;
+  }
+
+  .email {
+    font-size: 28px;
   }
 }

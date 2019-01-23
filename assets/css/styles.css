@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sarabun:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
 /* basic */
 html, body {
@@ -11,7 +11,7 @@ body {
   font-weight: normal;
   line-height: normal;
   color: #342E49;
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -43,13 +43,13 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   z-index: 2;
   -webkit-transform: translateZ(0);
 }
 
 footer {
-  background: #34233E;
+  background: #2B293D;
   width: 100%;
 }
 
@@ -71,7 +71,7 @@ footer {
 }
 
 header .container {
-  padding: 8px 20px;
+  padding: 15px 20px;
 }
 
 
@@ -94,8 +94,8 @@ header .container {
   font-size: 15px;
   transition: all 0.2s ease-out;
   font-weight: 500;
-  padding: 0 10px;
-  border-radius: 5px;
+  padding: 0 15px;
+  border-radius: 3px;
 }
 
 .navbar__item:hover {
@@ -263,7 +263,7 @@ a.footer__item:hover {
 .text--grey {
   line-height: 48px;
   font-size: 32px;
-  color: #000;
+  color: #7F7F7F;
   margin: 30px 0px;
 }
 
@@ -284,7 +284,6 @@ a.footer__item:hover {
 /* buttons  */
 .button {
   display: inline-block;
-
   font-size: 20px;
   color: #FFFFFF;
   border-radius: 5px;
@@ -315,15 +314,15 @@ a.footer__item:hover {
   font-weight: 700;
 }
 
-.background-pink {
+.background-blue {
   border: 2px solid #fff;
-  background: #EF5C71;
+  background: #0062FF;
 }
 
-.background-pink:hover {
-  border: 2px solid #EF5C71;
+.background-blue:hover {
+  border: 2px solid #0062FF;
   background: #fff;
-  color: #EF5C71;
+  color: #0062FF;
 }
 
 .background-idioms-pink {
