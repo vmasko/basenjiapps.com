@@ -89,6 +89,10 @@ section {
   padding-top: 16px;
 }
 
+.header__logo {
+  margin-top: 20px;
+}
+
 .logo span {
   color: rgba(255, 255, 255, 0.65);
 }
@@ -426,5 +430,9 @@ footer .container-custom {
 
   .app-store-button {
     width: 20vh;
+  }
+
+  .header__logo {
+    margin-top: 10px;
   }
 }

@@ -45,11 +45,7 @@
 
   <!-- local styles -->
   <link rel="stylesheet" href="assets/css/styles.css" rel="preload" as="style">
-  <link rel="stylesheet" href="assets/css/styles-responsive.css" rel="preload" as="style">
-
-  <!-- vendor scripts -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- <link rel="stylesheet" href="assets/css/styles-responsive.css" rel="preload" as="style"> -->
 
   <!-- local scripts -->
   <script type="text/javascript" src="assets/js/index.js"></script>
@@ -57,92 +53,55 @@
 
 <body>
   <header>
-    <div class='navbar'>
-      <div class='container'>
-        <a href='/' class="navbar__logo">
-          <img src="assets/images/self/logo_black.png" srcset="assets/images/self/logo_black.png 1x, assets/images/self/logo_black@2x.png 2x, assets/images/self/logo_black@3x.png 3x">
-        </a>
-        <div class="pull-right">
-          <a href='#intro' class="navbar__item">About</a>
-          <a href='#idioms' class="navbar__item">Our apps</a>
-          <a href='#contact' class="navbar__item">Contact</a>
-        </div>
-      </div>
-    </div>
+    <a href='/' class="header__logo">
+      <img src="assets/images/self/logo_white.png" srcset="assets/images/self/logo_white.png 1x, assets/images/self/logo_white@2x.png 2x, assets/images/self/logo_white@3x.png 3x">
+    </a>
   </header>
-
-  <section id='intro'>
-    <div class='container'>
-      <div style='text-align: center; max-width: 900px; margin: 0 auto;'>
-        <h1 class='title--bold'>Hey, we are <span class='bolder'>Basenji&nbsp;Apps</span>.</h1>
-        <p class='text--grey'>A team of experts from <span class='bolder'>Minsk, Belarus&nbsp;🇧🇾,</span> who focused on development of mobile apps for education and health improvement.</p>
-        <p class='text--grey'>We strive to create products that contribute to overall quality of life of our users.</p>
-        <a href='#idioms' class='button background-blue mt30'>Check out our apps →</a>
-      </div>
-      </div>
+  <div class='container'>
+    <div class='pt120'>
+      <h1 class='title-lg text-centered mb30'>Hey, we are <span class='text-bold'>Basenji Apps.</span></div>
+      <p class='title-md text-centered mb30'>A team of experts from Minsk, Belarus, who focused on development of mobile&nbsp;apps<br>for <span class='text-bold'>education</span> and <span class='text-bold'>health improvement.</span>
+      <p class='title-md text-centered'>We strive to create products that contribute to overall quality of life of our users.</p>
     </div>
-  </section>
 
-  <section id='idioms'>
-    <div class='section__app-icon'>
-      <img src="assets/images/self/idioms_icon.png" srcset="assets/images/self/idioms_icon.png 1x, assets/images/self/idioms_icon@2x.png 2x, assets/images/self/idioms_icon@3x.png 3x">
-    </div>
-    <div class='container'>
-      <div class='section__grid'>
-        <div class='s-col-1 phone-slider'>
-          <img class='phone-slider__frame' draggable="false" src="assets/images/self/phone_frame.png" srcset="assets/images/self/phone_frame.png 1x, assets/images/self/phone_frame@2x.png 2x, assets/images/self/phone_frame@3x.png 3x">
-          <div class='phone-slider__screenshots js-phone-slider'>
-            <img src="assets/images/self/screenshot_1.png" srcset="assets/images/self/screenshot_1.png 1x, assets/images/self/screenshot_1@2x.png 2x, assets/images/self/screenshot_1@3x.png 3x">
-            <img src="assets/images/self/screenshot_2.png" srcset="assets/images/self/screenshot_2.png 1x, assets/images/self/screenshot_2@2x.png 2x, assets/images/self/screenshot_2@3x.png 3x">
-            <img src="assets/images/self/screenshot_3.png" srcset="assets/images/self/screenshot_3.png 1x, assets/images/self/screenshot_3@2x.png 2x, assets/images/self/screenshot_3@3x.png 3x">
-            <img src="assets/images/self/screenshot_4.png" srcset="assets/images/self/screenshot_4.png 1x, assets/images/self/screenshot_4@2x.png 2x, assets/images/self/screenshot_4@3x.png 3x">
-            <img src="assets/images/self/screenshot_5.png" srcset="assets/images/self/screenshot_5.png 1x, assets/images/self/screenshot_5@2x.png 2x, assets/images/self/screenshot_5@3x.png 3x">
-            <img src="assets/images/self/screenshot_6.png" srcset="assets/images/self/screenshot_6.png 1x, assets/images/self/screenshot_6@2x.png 2x, assets/images/self/screenshot_6@3x.png 3x">
-          </div>
-          <div class='text--subtitle'>← swipe left and right →</div>
+    <div class='apps'>
+      <a class='app' href='/idioms'>
+        <div class='app__icon'>
+          <img src="assets/images/self/app_icon_idioms.png" srcset="assets/images/self/app_icon_idioms.png 1x, assets/images/self/app_icon_idioms@2x.png 2x, assets/images/self/app_icon_idioms@3x.png 3x">
         </div>
-        <div class='s-col-2'>
-          <p class='text--bold'>An app to learn new English idioms every day.</p>
-          <p class='text--bold'>We use the method of <span class='text--pink'>spaced repetition</span> and <span class='text--pink'>gamification techniques</span> to help users remember the material with ease.</p>
-          <div class='mt8'>
-            <a href='/idioms' class='button greedy-sm background-idioms-pink'>Learn More →</a>
-            <a href='https://itunes.apple.com/app/english-idioms-learn-and-play/id1436747289' class='button greedy-sm background-black ml25' target="_blank">Download on the App&nbsp;Store</a>
-          </div>
+        <div class='app__title'>Idioms</div>
+      </a>
+      <div class='app'>
+        <div class='app__icon'>
+          <img src="assets/images/self/app_icon_soothy.png" srcset="assets/images/self/app_icon_soothy.png 1x, assets/images/self/app_icon_soothy@2x.png 2x, assets/images/self/app_icon_soothy@3x.png 3x">
         </div>
+        <div class='app__title'>Soothy</div>
+      </div>
+      <div class='app'>
+        <div class='app__icon'>
+          <img src="assets/images/self/app_icon_tba.png" srcset="assets/images/self/app_icon_tba.png 1x, assets/images/self/app_icon_tba@2x.png 2x, assets/images/self/app_icon_tba@3x.png 3x">
+        </div>
+        <div class='app__title'>TBA</div>
+      </div>
+      <div class='app'>
+        <div class='app__icon'>
+          <img src="assets/images/self/app_icon_tba.png" srcset="assets/images/self/app_icon_tba.png 1x, assets/images/self/app_icon_tba@2x.png 2x, assets/images/self/app_icon_tba@3x.png 3x">
+        </div>
+        <div class='app__title'>TBA</div>
       </div>
     </div>
-  </section>
-  <section id="contact">
+  </div>
+
+  <footer>
     <div class='container'>
-      <h2 class='title--bold' style='text-align: center;'>Drop us a line: <a class='email' href="mailto:team@basenjiapps.com">team@basenjiapps.com.</a></h2>
-    </div>
-  </section>
+      <div class='pull-left'>
+        <a href='mailto:team@basenjiapps.com'>team@basenjiapps.com</a>
+      </div>
 
-  <footer id='footer'>
-    <div class='container container--narrow'>
-      <div class='footer__grid'>
-        <div class='f-col-1'>
-          <a href='/' class="footer__logo">
-            <img src="assets/images/self/logo_white.png" srcset="assets/images/self/logo_white.png 1x, assets/images/self/logo_white@2x.png 2x, assets/images/self/logo_white@3x.png 3x">
-          </a>
-          <div class='footer__item footer__subtitle'>Basenji Apps—a team of experts focused on development of mobile apps for education and health improvement.</div>
-        </div>
-
-        <div class='f-col-2'>
-          <div class='footer__title'>Links</div>
-          <a href='mailto:team@basenjiapps.com' class='footer__item'>team@basenjiapps.com</a>
-          <a href='https://itunes.apple.com/developer/vitalina-sinitskaya/id1329305542' class='footer__item' target="_blank">App Store</a>
-        </div>
-
-        <div class='f-col-3'>
-          <div class='footer__title'>Docs</div>
-          <a href='/docs/privacy_policy' class='footer__item'>Privacy Policy</a>
-          <a href='/docs/terms_of_use' class='footer__item'>Terms of Use</a>
-        </div>
-
-        <!-- <div class='f-col-4'>
-          <div class='footer__title'>About</div>
-        </div> -->
+      <div class='pull-right'>
+        <a href='https://itunes.apple.com/developer/vitalina-sinitskaya/id1329305542' target='_blank'>App Store</a>
+        <a href='/docs/privacy_policy'>Privacy Policy</a>
+        <a href='/docs/terms_of_use'>Terms of Use</a>
       </div>
     </div>
   </footer>
