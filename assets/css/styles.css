@@ -23,8 +23,8 @@
 }
 
 body {
-  color: #fff;
-  background-color: #4B5FE7;
+  color: #232628;
+  background-color: #F1F4F7;
   font-family: 'Inter', sans-serif;
   line-height: normal;
   font-size: 16px;
@@ -56,7 +56,7 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: #232628;
   height: 60px;
   width: 100%;
 }
@@ -66,6 +66,7 @@ footer * {
 }
 
 footer a {
+  color: #fff;
   margin-right: 15px;
 }
 
@@ -79,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #fff;
+  color: #232628;
   text-decoration: none;
 }
 
