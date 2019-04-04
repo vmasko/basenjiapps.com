@@ -2,24 +2,24 @@
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 400;
-  src: url("Inter-Regular.woff2") format("woff2"),
-       url("Inter-Regular.woff") format("woff");
+  src: url("assets/fonts/Inter-Regular.woff2") format("woff2"),
+       url("assets/fonts/Inter-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 700;
-  src: url("Inter-Bold.woff2") format("woff2"),
-       url("Inter-Bold.woff") format("woff");
+  src: url("assets/fonts/Inter-Bold.woff2") format("woff2"),
+       url("assets/fonts/Inter-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 500;
-  src: url("Inter-Medium.woff2") format("woff2"),
-       url("Inter-Medium.woff") format("woff");
+  src: url("assets/fonts/Inter-Medium.woff2") format("woff2"),
+       url("assets/fonts/Inter-Medium.woff") format("woff");
 }
 
 body {
@@ -134,7 +134,7 @@ p {
 
 .apps {
   margin: 14vh auto 0px auto;
-  max-width: 763.5px;
+  max-width: 968px;
 }
 
 .apps .app:last-child {
@@ -198,13 +198,14 @@ p {
 
   .apps {
     /* margin-top: 4vh; */
-    width: 301.5px;
+    width: 317.5px;
   }
 
   .app {
     display: inline-block;
     width: 60px;
     margin-right: 16px;
+    margin-top: 10px;
   }
 
   .app__icon {
