@@ -151,6 +151,8 @@ p {
   width: 150px;
   height: 150px;
   margin: 0 auto;
+  overflow: hidden;
+  border-radius: 33px;
 }
 
 .app__icon img {
