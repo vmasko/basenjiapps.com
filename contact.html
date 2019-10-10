@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Basenji Apps</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" user-scalable="no">
+
+  <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" rel="preload" as="style">
+
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/form.js"></script>
+
+  <style>
+    html, body {
+      height: 100% !important;
+      overflow: hidden;
+    }
+
+    .card-wrapper {
+      background: #fff;
+      padding: 20px 25px;
+      border-radius: 15px;
+      margin-top: 10vh;
+    }
+  </style>
+</head>
+
+<body style='background: #f5f5f5;'>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Basenji Apps</a>
+  </nav>
+  <div class='container' style='height: 100%;'>
+    <div class="row justify-content-center">
+      <div class='col-md-5'>
+        <div class='card-wrapper'>
+          <h3>Contact</h3>
+          <form id='contactForm' role="form" action='' method='POST'>
+            <div class='form-group'>
+              <label for='email'>Your email</label>
+              <input id='email' type='email' class='form-control'></input>
+              <small class='text-danger' style='display: none;'>cannot be empty</small>
+            </div>
+
+            <div class='form-group'>
+              <label for='comment'>Comment</label>
+              <textarea id='comment' type='text' class='form-control'></textarea>
+            </div>
+
+            <div class='form-group'>
+              <button id='submit' type='submit' class='btn btn-block btn-primary'>Send!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
