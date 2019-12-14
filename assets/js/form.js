@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  $('#contactForm').on('submit',function(e) {
+  $('#contactForm').on('submit', function(e) {
     e.preventDefault();
 
     var form = $(this);
